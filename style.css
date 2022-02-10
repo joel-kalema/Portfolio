@@ -151,14 +151,14 @@ hr {
   color: rgb(77, 77, 77);
 }
 
-.used {
+.useds {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   padding: 20px;
 }
 
-.used ul {
+.useds .used {
   width: 50%;
 }
 
