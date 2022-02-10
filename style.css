@@ -8,8 +8,25 @@
 
 h1,
 h2,
-p {
+p,
+a,
+li {
   color: rgb(226, 226, 226);
+}
+
+h5 {
+  margin-bottom: 15px;
+  color: #867dff;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  margin-top: 3px;
+  margin-top: 20px;
 }
 
 body {
@@ -47,14 +64,14 @@ body {
   top: 450px;
 }
 
-nav {
+header {
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
 }
 
-nav h1 {
+header h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -130,9 +147,29 @@ nav .toggle span::before {
 
 hr {
   height: 1px;
-  margin-top: 70px;
+  margin: 40px 0;
+  color: rgb(77, 77, 77);
+}
+
+.used {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+}
+
+.used ul {
+  width: 50%;
 }
 
 .mail {
   margin-top: 10px;
+}
+
+.links {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 40px;
 }
