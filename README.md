@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Mobile-version-skeleton
+# Portfolio
 
 > Description the project.
 
@@ -11,9 +11,9 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://joel-kalema.github.io/Mobile-version-skeleton/)
-[Figma Link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A10)
-[Project requirements Link](https://github.com/microverseinc/curriculum-html-css/blob/main/portfolio/1_setup.md)
+- [Live Demo Link](https://joel-kalema.github.io/Portfolio/)
+- [Figma Link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A10)
+- [Project requirements Link](https://github.com/microverseinc/curriculum-html-css/blob/main/portfolio/1_setup.md)
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/joel-kalema/Mobile-version-skeleton/issues/1).
+Feel free to check the [issues page](https://github.com/joel-kalema/Mobile-version-skeleton/issues).
 
 ## Show your support
 
