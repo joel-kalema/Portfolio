@@ -21,7 +21,7 @@ h5 {
 
 i:hover {
   transition: 0.5s;
-  color: #2a1cf0;
+  color: #3b32c0;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
@@ -39,10 +39,9 @@ li {
 }
 
 body {
-  height: 700px;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
-  background-color: rgb(31, 7, 87);
+  background-color: #191665;
 }
 
 .cercle1,
@@ -168,6 +167,8 @@ main .mail {
 }
 
 .works {
+  display: grid;
+  grid-template-columns: 1fr;
   position: relative;
   max-width: 1000px;
   padding: 0 30px;
@@ -247,7 +248,7 @@ main .mail {
 
 .works button {
   border: none;
-  background-color: #867dff;
+  background-color: #5e42d6;
   padding: 20px 15px;
   color: #fff;
   transition: 0.5s ease;
@@ -258,15 +259,23 @@ main .mail {
 }
 
 .works button:hover {
-  background-color: #2a1cf0;
+  background-color: #4036cf;
 }
 
 .langage-used ul {
   display: flex;
-  justify-content: space-around;
 }
 
 .langage-used ul li {
-  padding: 20px 0;
-  text-align: center;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+li.colum1 {
+  border-left: rgb(99, 99, 99) 1px solid;
+}
+
+li.colum2 {
+  border-left: rgb(99, 99, 99) 1px solid;
+  border-right: rgb(99, 99, 99) 1px solid;
 }
