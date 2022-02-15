@@ -279,3 +279,26 @@ li.colum2 {
   border-left: rgb(99, 99, 99) 1px solid;
   border-right: rgb(99, 99, 99) 1px solid;
 }
+
+.contact{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  width: 327px;
+  height: 28;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  background-color: #fff;
+  border: none;
+  padding: 15px 16px;
+  margin-bottom: 24px;
+}
+
