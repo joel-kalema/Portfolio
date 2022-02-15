@@ -282,13 +282,24 @@ li.colum2 {
 
 .contact{
   padding: 20px;
+  text-align: center;
+}
+.contact h2{
+  color: #867dff;
+  margin-bottom: 24px;
+}
+
+.contact p{
+  margin-bottom: 40px;
+}
+form{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-input{
+input {
   width: 327px;
   height: 28;
   border-radius: 0;
@@ -302,3 +313,26 @@ input{
   margin-bottom: 24px;
 }
 
+.contact textarea {
+  text-align: left;
+  width: 327px;
+  height: 148px;
+  padding: 12px;
+  margin-bottom: 40px;
+}
+
+button{
+  color: #fff;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #7d73fc;
+  margin: 10px auto;
+  border: none;
+}
+.contact .links {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 30px;
+}
