@@ -16,17 +16,18 @@
     <title>Portfolio mobile version</title>
   </head>
   <body>
-    <span class="cercle1"></span>
-    <span class="cercle2"></span>
-    <header>
-      <h1><a href="#">JK</a></h1>
-      <nav>
-        <button type="button">
-          <i class="fa fa-solid fa-bars"></i>
-        </button>
-      </nav>
-    </header>
     <main class="blocks">
+      <span class="cercle1"></span>
+      <span class="cercle2"></span>
+      <header>
+        <h1><a href="#">JK</a></h1>
+        <nav>
+          <button type="button">
+            <i class="fa fa-solid fa-bars"></i>
+          </button>
+        </nav>
+      </header>
+
       <section class="block-one">
         <h1>Joel kalema</h1>
         <h2>Software Developer</h2>
@@ -40,40 +41,41 @@
           <div class="used">
             <h5>Language</h5>
             <ul>
-              <li>Javascript</li>
-              <li>Ruby</li>
-              <li>Html</li>
-              <li>Css</li>
+              <li><a href="#">Javascript</a></li>
+              <li><a href="#">Ruby</a></li>
+              <li><a href="#">Ruby</a></li>
+              <li><a href="#">Css</a></li>
             </ul>
           </div>
 
           <div class="used">
             <h5>Frameworks</h5>
             <ul>
-              <li>Bootstrap</li>
-              <li>Ruby on Rails</li>
-              <li>RSPec</li>
-              <li>CapyBara</li>
-              <li>Selenium</li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Ruby on Rails</a></li>
+              <li><a href="#">RSPec</a></li>
+              <li><a href="#">CapyBara</a></li>
+              <li><a href="#">Selenium</a></li>
             </ul>
           </div>
           <div class="used">
             <h5>Skills</h5>
             <ul>
-              <li>Codekit</li>
-              <li>Github</li>
-              <li>Codepen</li>
-              <li>Gitlab</li>
-              <li>Terminal</li>
+              <li><a href="#">Codekit</a></li>
+              <li><a href="#">Github</a></li>
+              <li><a href="#">Codepen</a></li>
+              <li><a href="#">Gitlab</a></li>
+              <li><a href="#">Terminal</a></li>
             </ul>
           </div>
         </div>
         <hr />
         <div class="links">
           <a><i class="fa fa-github"></i></a>
+          <a><i class="fa fa-linkedin"></i></a>
+          <a><i class="fa fa-hand-peace-o"></i></a>
           <a><i class="fa fa-twitter"></i></a>
           <a><i class="fa fa-envelope"></i></a>
-          <a><i class="fa fa-linkedin"></i></a>
         </div>
       </section>
 
@@ -166,16 +168,57 @@
           </div>
           <button type="button">See Project</button>
         </div>
+      </section>
+      <footer>
+        <section class="contact">
+          <h3>CONTACT US</h3>
+          <p class="text">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
 
-        <hr />
+          <form
+            action="https://formspree.io/f/mbjwogzo
+        "
+            method="POST"
+          >
+            <input
+              type="text"
+              name="userName"
+              id="name"
+              placeholder="Text Input"
+              maxlength="30"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              value="jeremy@gmail.com"
+              placeholder="Enter your e-mail"
+              required
+            />
+
+            <textarea
+              class="textarea"
+              maxlength="500"
+              placeholder="Enter text here..."
+            ></textarea>
+            <button type="submit" class="button">send Message</button>
+          </form>
+        </section>
+
         <div class="links">
           <a><i class="fa fa-github"></i></a>
+          <a><i class="fa fa-linkedin"></i></a>
+          <a><i class="fa fa-hand-peace-o"></i></a>
           <a><i class="fa fa-twitter"></i></a>
           <a><i class="fa fa-envelope"></i></a>
-          <a><i class="fa fa-linkedin"></i></a>
         </div>
-      </section>
-      <p class="mail">joelkalema63@gmail.com</p>
+        <p class="mail">joelkalema63@gmail.com</p>
+        <div class="line"></div>
+      </footer>
     </main>
   </body>
 </html>
