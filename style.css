@@ -297,11 +297,11 @@ li.colum2 {
 .contact h2 {
   font-size: 32px;
   color: #9390ff;
-  margin-bottom: 24px;
+  margin-top: 120px;
 }
 
 .contact .text {
-  margin-bottom: 40px;
+  margin-top: 24px;
   font-size: 16px;
 }
 
@@ -324,7 +324,7 @@ input {
   background-color: #fff;
   border: 2px solid #867dff;
   padding: 15px 16px;
-  margin-bottom: 24px;
+  margin-top: 24px;
   outline: none;
 }
 
@@ -336,7 +336,7 @@ textarea {
   width: 327px;
   height: 148px;
   padding: 12px;
-  margin-bottom: 40px;
+  margin-top: 24px;
   outline: none;
 }
 
@@ -344,7 +344,8 @@ textarea {
   color: #fff;
   padding: 12px;
   background-color: #7d73fc;
-  margin: 15px auto;
+  margin-bottom: 71px;
+  margin-top: 40px;
   border: none;
 }
 
