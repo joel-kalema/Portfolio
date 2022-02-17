@@ -1,12 +1,36 @@
-@media (min-width: 375px) {
-  main {
-    min-width: 1256px;
+@media screen and (min-width: 400px) and (max-width: 900px) {
+  body {
+    max-width: 650px;
     margin: 0 auto;
   }
 
+  .useds {
+    width: 90%;
+    justify-content: space-between;
+    margin: 37px auto;
+  }
+
+  .used {
+    width: 10%;
+  }
+
+  .contact h3 {
+    font-size: 32px;
+    color: #9390ff;
+    margin-top: 120px;
+  }
+
+  .contact .text {
+    margin: 50px auto;
+    width: 320px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 900px) {
   .cercle1 {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     left: 40px;
     top: 150px;
     background-color: rgba(255, 255, 255, 0.822);
@@ -16,9 +40,9 @@
 
   .cercle2 {
     filter: blur(30px);
-    width: 150px;
-    height: 150px;
-    right: 40px;
+    width: 200px;
+    height: 200px;
+    right: 60px;
     top: 550px;
     background-color: rgba(255, 255, 255, 0.76);
     -webkit-filter: blur(30px);
@@ -38,17 +62,17 @@
   }
 
   .works1 {
-    filter: blur(50px);
+    filter: blur(30px);
     width: 550px;
     height: 70px;
-    top: 250vh;
-    right: 0;
-    transform: rotate(120deg);
-    -webkit-transform: rotate(120deg);
-    -moz-transform: rotate(120deg);
-    -ms-transform: rotate(120deg);
-    -o-transform: rotate(120deg);
-    -webkit-filter: blur(50px);
+    top: 300vh;
+    right: -60px;
+    transform: rotate(160deg);
+    -webkit-transform: rotate(160deg);
+    -moz-transform: rotate(160deg);
+    -ms-transform: rotate(160deg);
+    -o-transform: rotate(160deg);
+    -webkit-filter: blur(30px);
   }
 
   nav {
