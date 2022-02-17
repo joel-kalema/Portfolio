@@ -85,7 +85,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 10px 15px;
 }
 
 header a {
