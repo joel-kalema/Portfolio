@@ -344,10 +344,6 @@ input {
   outline: none;
 }
 
-.last-name {
-  display: none;
-}
-
 textarea {
   font-family: "Poppins", sans-serif;
   background-color: #fff;
