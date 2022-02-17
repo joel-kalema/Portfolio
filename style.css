@@ -14,13 +14,17 @@ li {
   color: rgb(226, 226, 226);
 }
 
+br {
+  margin: 40px 0;
+}
+
 h5 {
   margin-bottom: 15px;
   color: #867dff;
 }
 
 main {
-  max-width: 378px;
+  max-width: 365px;
   margin: 0 auto;
 }
 
@@ -89,18 +93,21 @@ header {
   padding: 20px 40px;
 }
 
-header h1 {
+header a {
   font-style: normal;
   font-size: 35px;
 }
 
 nav {
+  width: 10%;
   position: relative;
-  width: 14%;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.nav-links {
+  display: none;
 }
 
 nav button {
@@ -115,15 +122,15 @@ nav button {
 .blocks {
   justify-content: center;
   align-items: center;
+  max-width: 1000px;
 }
 
 .block-one {
-  max-width: 1000px;
   padding: 0 20px;
   margin: 0 auto;
 }
 
-.blocks .block-one h1 {
+.title {
   margin-top: 60px;
   text-align: center;
   font-size: 38px;
@@ -139,29 +146,24 @@ nav button {
 
 .blocks .block-one p {
   margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
   font-size: 19px;
-}
-
-hr {
-  height: 1px;
-  margin: 60px 0;
-  background-color: #3a3837;
 }
 
 .useds {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  max-width: 100%;
   padding: 20px;
 }
 
-.useds .used {
-  width: 50%;
+.used {
+  width: 48%;
 }
 
 .links {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   display: flex;
   padding: 15px;
@@ -174,12 +176,26 @@ hr {
   display: grid;
   grid-template-columns: 1fr;
   position: relative;
-  max-width: 1000px;
   padding: 0 30px;
   margin: 0 auto;
 }
 
-.down {
+.work-link {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.down2 {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  margin: 30px;
+}
+
+.down1 {
+  display: none;
   text-align: center;
   font-size: 30px;
   color: #fff;
@@ -198,7 +214,7 @@ hr {
 .picture {
   width: 80%;
   height: 80%;
-  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.425);
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.151);
 }
 
 .projects h3 {
@@ -225,6 +241,10 @@ hr {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.76);
   z-index: -2;
+}
+
+.desk {
+  display: none;
 }
 
 .works2 {
@@ -309,6 +329,7 @@ form {
 }
 
 input {
+  border: none;
   font-family: "Poppins", sans-serif;
   width: 327px;
   height: 28px;
@@ -318,31 +339,34 @@ input {
   -ms-border-radius: 0;
   -o-border-radius: 0;
   background-color: #fff;
-  border: 2px solid #867dff;
   padding: 15px 16px;
   margin-top: 24px;
   outline: none;
 }
 
+.last-name {
+  display: none;
+}
+
 textarea {
   font-family: "Poppins", sans-serif;
   background-color: #fff;
-  border: 2px solid #867dff;
   font-size: 15px;
   width: 327px;
   height: 148px;
   padding: 12px;
   margin-top: 24px;
   outline: none;
+  border: none;
 }
 
-.contact .button {
+.contact .button-sub {
+  border: none;
   color: #fff;
   padding: 12px;
   background-color: #7d73fc;
   margin-bottom: 71px;
   margin-top: 40px;
-  border: none;
   transition: 0.6s ease;
   -webkit-transition: 0.6s ease;
   -moz-transition: 0.6s ease;
@@ -350,7 +374,7 @@ textarea {
   -o-transition: 0.6s ease;
 }
 
-.contact .button:hover {
+.contact .button-sub:hover {
   color: #fff;
   background-color: #2c1dff;
 }
@@ -363,7 +387,7 @@ textarea {
   font-size: 30px;
 }
 
-footer .line {
+.lines {
   content: "";
   width: 30%;
   height: 5px;

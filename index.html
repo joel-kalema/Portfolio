@@ -13,15 +13,26 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Portfolio mobile version</title>
+    <link rel="stylesheet" href="media.css" />
+    <title>Portfolio</title>
   </head>
   <body>
     <main class="blocks">
       <span class="cercle1"></span>
       <span class="cercle2"></span>
       <header>
-        <h1><a href="#">JK</a></h1>
+        <a href="#">JK</a>
         <nav>
+          <div class="nav-links">
+            <ul>
+              <li><a href="#">Portoflio</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li>
+                <a href="#"><i class="fa fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
           <button type="button">
             <i class="fa fa-solid fa-bars"></i>
           </button>
@@ -29,9 +40,9 @@
       </header>
 
       <section class="block-one">
-        <h1>Joel kalema</h1>
-        <h2>Software Developer</h2>
-        <p>
+        <h1 class="title">Joel kalema</h1>
+        <h2 class="sub-title">Software Developer</h2>
+        <p class="paragraph">
           I can help you build a product, feature or website Look through some
           of my work and experience! If you like what you see and have a project
           you need coded, don’t hestiate to contact me.
@@ -48,7 +59,7 @@
             </ul>
           </div>
 
-          <div class="used">
+          <div class="used Frameworks">
             <h5>Frameworks</h5>
             <ul>
               <li><a href="#">Bootstrap</a></li>
@@ -58,7 +69,7 @@
               <li><a href="#">Selenium</a></li>
             </ul>
           </div>
-          <div class="used">
+          <div class="used Skills">
             <h5>Skills</h5>
             <ul>
               <li><a href="#">Codekit</a></li>
@@ -70,53 +81,44 @@
           </div>
         </div>
         <hr />
-        <div class="links">
-          <a><i class="fa fa-github"></i></a>
-          <a><i class="fa fa-linkedin"></i></a>
-          <a><i class="fa fa-hand-peace-o"></i></a>
-          <a><i class="fa fa-twitter"></i></a>
-          <a><i class="fa fa-envelope"></i></a>
-        </div>
       </section>
 
       <section class="works projects">
         <span class="works1"></span>
         <span class="works2"></span>
-        <div class="down">
-          <i class="fa fa-light fa-arrow-down"></i><span>Work</span>
+        <div class="work-link">
+          <div class="down1">
+            <i class="fa fa-light fa-arrow-down"></i><span>Work</span>
+          </div>
+          <div class="links">
+            <a><i class="fa fa-github"></i></a>
+            <a><i class="fa fa-linkedin"></i></a>
+            <a><i class="fa fa-hand-peace-o"></i></a>
+            <a><i class="fa fa-twitter"></i></a>
+            <a><i class="fa fa-envelope"></i></a>
+          </div>
+          <div class="down2">
+            <i class="fa fa-light fa-arrow-down"></i><span>Work</span>
+          </div>
         </div>
-        <h3>MY RECENT</h3>
-        <h3>WORK</h3>
+        <h3 class="work-title">
+          My recent<br />
+          work
+        </h3>
         <hr />
+        <div class="line"></div>
         <div class="project">
           <div class="img">
             <div class="picture"></div>
           </div>
-          <h2>Multi-Post Stories</h2>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
-          <div class="langage-used">
-            <ul>
-              <li>Css</li>
-              <li class="colum1">Html</li>
-              <li class="colum2">Bootstrap</li>
-              <li>Ruby</li>
-            </ul>
-          </div>
-          <button type="button">See Project</button>
-        </div>
-        <div class="project">
-          <div class="img"><div class="picture"></div></div>
-          <h2>Multi-Post Stories</h2>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
-          <div class="langage-used">
+          <div class="project-content">
+            <h2>Multi-Post Stories</h2>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
             <div class="langage-used">
               <ul>
                 <li>Css</li>
@@ -125,18 +127,19 @@
                 <li>Ruby</li>
               </ul>
             </div>
+            <button type="button">See Project</button>
           </div>
-          <button type="button">See Project</button>
         </div>
-        <div class="project">
+        <div class="project reverse">
           <div class="img"><div class="picture"></div></div>
-          <h2>Multi-Post Stories</h2>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
-          <div class="langage-used">
+          <div class="project-content">
+            <h2>Multi-Post Stories</h2>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
             <div class="langage-used">
               <ul>
                 <li>Css</li>
@@ -145,18 +148,19 @@
                 <li>Ruby</li>
               </ul>
             </div>
+            <button type="button">See Project</button>
           </div>
-          <button type="button">See Project</button>
         </div>
         <div class="project">
           <div class="img"><div class="picture"></div></div>
-          <h2>Multi-Post Stories</h2>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
-          <div class="langage-used">
+          <div class="project-content">
+            <h2>Multi-Post Stories</h2>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
             <div class="langage-used">
               <ul>
                 <li>Css</li>
@@ -165,13 +169,35 @@
                 <li>Ruby</li>
               </ul>
             </div>
+            <button type="button">See Project</button>
           </div>
-          <button type="button">See Project</button>
+        </div>
+        <div class="project reverse">
+          <div class="img"><div class="picture"></div></div>
+          <div class="project-content">
+            <h2>Multi-Post Stories</h2>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
+            <div class="langage-used">
+              <ul>
+                <li>Css</li>
+                <li class="colum1">Html</li>
+                <li class="colum2">Bootstrap</li>
+                <li>Ruby</li>
+              </ul>
+            </div>
+            <button type="button">See Project</button>
+          </div>
         </div>
       </section>
       <footer>
         <section class="contact">
-          <h3>CONTACT US</h3>
+          <h3 class="mobile">CONTACT US</h3>
+          <h3 class="desk">Let’s chat!</h3>
           <p class="text">
             If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding. I’d love
@@ -183,15 +209,27 @@
         "
             method="POST"
           >
+            <div class="names">
+              <input
+                type="text"
+                name="userName"
+                id="name"
+                placeholder="Text Input"
+                maxlength="30"
+                required
+              />
+              <input
+                class="last-name"
+                type="text"
+                name="userName"
+                id="name"
+                placeholder="last-name"
+                maxlength="30"
+                required
+              />
+            </div>
             <input
-              type="text"
-              name="userName"
-              id="name"
-              placeholder="Text Input"
-              maxlength="30"
-              required
-            />
-            <input
+              class="input-mail"
               type="email"
               name="email"
               id="email"
@@ -205,10 +243,11 @@
               maxlength="500"
               placeholder="Enter text here..."
             ></textarea>
-            <button type="submit" class="button">send Message</button>
+            <button type="submit" class="button-sub">send Message</button>
           </form>
         </section>
-
+      </footer>
+      <div class="footer">
         <div class="links">
           <a><i class="fa fa-github"></i></a>
           <a><i class="fa fa-linkedin"></i></a>
@@ -217,8 +256,8 @@
           <a><i class="fa fa-envelope"></i></a>
         </div>
         <p class="mail">joelkalema63@gmail.com</p>
-        <div class="line"></div>
-      </footer>
+        <div class="lines"></div>
+      </div>
     </main>
   </body>
 </html>
