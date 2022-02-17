@@ -1,6 +1,6 @@
-@media screen and (min-width: 420px) and (max-width: 912px) {
+@media only screen and (min-width: 420px) and (max-width: 912px) {
   body {
-    max-width: 650px;
+    max-width: 98%;
     margin: 0 auto;
   }
 
@@ -35,7 +35,20 @@
   }
 }
 
-@media screen and (min-width: 900px) and (min-width: 1100px) {
+@media only screen and (max-width: 1100px) {
+  main {
+    min-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  header {
+    margin: 0;
+    width: 100%;
+    padding: 1.75em 6em;
+  }
+
   .cercle1 {
     width: 200px;
     height: 200px;
@@ -83,12 +96,19 @@
     -webkit-filter: blur(30px);
   }
 
+  .works {
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+  }
+
   nav {
     width: 30%;
+    margin-right: 30px;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   .nav-links {

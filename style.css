@@ -23,11 +23,6 @@ h5 {
   color: #867dff;
 }
 
-main {
-  max-width: 365px;
-  margin: 0 auto;
-}
-
 i:hover {
   transition: 0.5s;
   color: #3b32c0;
@@ -99,7 +94,7 @@ header a {
 }
 
 nav {
-  width: 10%;
+  width: 20%;
   position: relative;
   display: flex;
   align-items: center;
@@ -120,9 +115,9 @@ nav button {
 }
 
 .blocks {
+  display: block;
   justify-content: center;
   align-items: center;
-  max-width: 1000px;
 }
 
 .block-one {
@@ -173,10 +168,8 @@ nav button {
 }
 
 .works {
-  display: grid;
-  grid-template-columns: 1fr;
   position: relative;
-  padding: 0 30px;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -272,7 +265,7 @@ nav button {
 
 .works button {
   border: none;
-  background-color: #5e42d6;
+  background-color: #9390ff;
   padding: 20px 15px;
   color: #fff;
   transition: 0.5s ease;
