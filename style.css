@@ -215,13 +215,20 @@ nav button {
   width: 100%;
   height: 250px;
   background-color: #fff;
+  
 }
 
 .picture {
   width: 80%;
   height: 80%;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.151);
+  transition: width 0.5s ease, height 0.5s ease;
 }
+
+.picture:hover{
+  width: 90%;
+  height: 90%;
+  }
 
 .projects h3 {
   color: #867dff;
