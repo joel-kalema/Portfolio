@@ -61,6 +61,19 @@ body {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   z-index: -2;
+  animation-name: cercle;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cercle {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
 
 .mail {
