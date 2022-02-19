@@ -68,10 +68,11 @@ body {
 }
 
 @keyframes cercle {
-  from{
+  from {
     opacity: 0;
   }
-  to{
+
+  to {
     opacity: 1;
   }
 }
@@ -215,7 +216,6 @@ nav button {
   width: 100%;
   height: 250px;
   background-color: #fff;
-  
 }
 
 .picture {
@@ -225,10 +225,10 @@ nav button {
   transition: width 0.5s ease, height 0.5s ease;
 }
 
-.picture:hover{
+.picture:hover {
   width: 90%;
   height: 90%;
-  }
+}
 
 .projects h3 {
   color: #867dff;
