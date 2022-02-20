@@ -43,12 +43,6 @@
 }
 
 @media only screen and (min-width: 992px) {
-  header {
-    margin: 0;
-    width: 100%;
-    padding: 1.75em 6em;
-  }
-
   .cercle1 {
     width: 200px;
     height: 200px;
