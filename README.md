@@ -12,8 +12,6 @@
 ## Live Demo (if available)
 
 - [Live Demo Link](https://joel-kalema.github.io/Portfolio/)
-- [Figma Link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A10)
-- [Project requirements Link](https://github.com/microverseinc/curriculum-html-css/blob/main/portfolio/1_setup.md)
 
 ## Getting Started
 
