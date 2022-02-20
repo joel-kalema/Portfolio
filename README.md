@@ -13,6 +13,7 @@
 ## Live Demo (if available)
 
 - [Live Demo Link](https://joel-kalema.github.io/Portfolio/)
+  ![Mobile version screeshot](./live.jpg)
 
 ## Getting Started
 

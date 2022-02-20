@@ -373,6 +373,14 @@ li.colum2 {
   border-right: rgb(99, 99, 99) 1px solid;
 }
 
+#contact {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
 .contact {
   padding: 20px;
   text-align: center;
