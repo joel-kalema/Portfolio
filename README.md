@@ -8,6 +8,7 @@
 
 - Html
 - Css
+- Js
 
 ## Live Demo (if available)
 
