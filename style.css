@@ -134,6 +134,13 @@ nav {
   display: none;
 }
 
+.nav-active {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
 nav button {
   color: #fff;
   font-size: 35px;
