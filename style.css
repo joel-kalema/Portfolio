@@ -32,6 +32,14 @@ i:hover {
   -o-transition: 0.5s;
 }
 
+.toggle {
+  color: #fff;
+}
+
+.toggle:hover {
+  color: #fff;
+}
+
 a {
   text-decoration: none;
 }
@@ -133,6 +141,7 @@ nav {
 }
 
 .nav-active {
+  overflow: hidden;
   display: block;
   position: absolute;
   left: 0;
@@ -143,12 +152,39 @@ nav {
   padding: 30px;
 }
 
-.nav-active ul li a {
-  font-size: 15px;
+.nav-active ul {
+  width: 88%;
+  margin: 60px auto;
 }
 
-.nav-active ul li a i{
+.nav-active .envelope {
   display: none;
+}
+
+.nav-active i {
+  color: #5d55d4;
+}
+
+.nav-active ul li a {
+  font-size: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-active .cercle-nav1{
+  position: absolute;
+  top: 20vh;
+  left: -40px;
+  background-color: #fff;
+  width: 200px;
+  height: 60px;
+  filter: blur(50px);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 nav button {
