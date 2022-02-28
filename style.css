@@ -129,23 +129,26 @@ nav {
 }
 
 .nav-links {
-  display: block;
-}
-
-.nav-list{
-  position: absolute;
-  left: 0;
-  top: 50px;
-  width: 100%;
-  background-color: #191665;
+  display: none;
 }
 
 .nav-active {
+  display: block;
   position: absolute;
+  left: 0;
   top: 0;
   width: 100%;
-  left: 0;
-  background-color: #fff;
+  height: 100vh;
+  background-color: #191665;
+  padding: 30px;
+}
+
+.nav-active ul li a {
+  font-size: 15px;
+}
+
+.nav-active ul li a i{
+  display: none;
 }
 
 nav button {
@@ -155,6 +158,7 @@ nav button {
   border: none;
   cursor: pointer;
   margin-top: 10px;
+  z-index: 100;
 }
 
 .blocks {
