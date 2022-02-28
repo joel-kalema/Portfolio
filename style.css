@@ -96,7 +96,6 @@ body {
 }
 
 header {
-  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -125,13 +124,20 @@ header a {
 
 nav {
   width: 20%;
-  position: relative;
   display: flex;
   justify-content: center;
 }
 
 .nav-links {
-  display: none;
+  display: block;
+}
+
+.nav-list{
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 100%;
+  background-color: #191665;
 }
 
 .nav-active {
@@ -139,6 +145,7 @@ nav {
   top: 0;
   width: 100%;
   left: 0;
+  background-color: #fff;
 }
 
 nav button {
