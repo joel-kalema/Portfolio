@@ -4,6 +4,10 @@
     margin: 0 auto;
   }
 
+  .nav-active {
+    display: none;
+  }
+
   .img {
     display: flex;
     justify-content: center;
@@ -40,6 +44,7 @@
     min-width: 80%;
     margin: 0 auto;
   }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -105,9 +110,23 @@
     justify-content: space-around;
   }
 
+  .link .right {
+    display: none;
+  }
+
+  .nav-active {
+    display: none;
+    opacity: 0;
+  }
+
+  .nav-active li {
+    opacity: 0;
+  }
+
   .nav-links {
     display: block;
     width: 100%;
+    margin-bottom: 50px;
   }
 
   nav button {

@@ -38,6 +38,7 @@ i:hover {
 
 .toggle:hover {
   color: #fff;
+  z-index: 1;
 }
 
 a {
@@ -138,6 +139,7 @@ nav {
 
 .nav-links {
   display: none;
+  height: 0;
 }
 
 .nav-active {
@@ -147,9 +149,21 @@ nav {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100vh;
+  height: 200vh;
   background-color: #191665;
   padding: 30px;
+  pointer-events: all;
+}
+
+.nav-active .close-nav button i {
+  color: #fff;
+}
+
+.close-nav {
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  z-index: 4;
 }
 
 .nav-active ul {
@@ -161,30 +175,61 @@ nav {
   display: none;
 }
 
-.nav-active i {
+.nav-active .right {
+  z-index: 4;
   color: #5d55d4;
 }
 
 .nav-active ul li a {
   font-size: 21px;
+  z-index: 4;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav-active .cercle-nav1{
+.nav-active .cercle-nav1 {
   position: absolute;
-  top: 20vh;
+  top: 40vh;
   left: -40px;
   background-color: #fff;
+  z-index: 0;
   width: 200px;
   height: 60px;
-  filter: blur(50px);
+  filter: blur(25px);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  -webkit-filter: blur(25px);
+  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+}
+
+.nav-active .cercle-nav2 {
+  position: absolute;
+  top: 60vh;
+  right: 0;
+  background-color: #fff;
+  z-index: 0;
+  width: 200px;
+  height: 100px;
+  filter: blur(25px);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-filter: blur(25px);
+  transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
 }
 
 nav button {
@@ -194,7 +239,6 @@ nav button {
   border: none;
   cursor: pointer;
   margin-top: 10px;
-  z-index: 100;
 }
 
 .blocks {

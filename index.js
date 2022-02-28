@@ -3,9 +3,22 @@ window.addEventListener('scroll', function(){
     header.classList.toggle('stiky',window.scrollY >0);
 })
 
-const button = document.querySelector('.button');
+const navSlide= () => {
+    const button = document.querySelectorAll('.button');
 const activeNav = document.querySelector('.nav-links')
+const remouve = document.querySelectorAll('.link');
 
-button.addEventListener('click', () => {
-    activeNav.classList.toggle('nav-active');
-  });
+button.forEach(btn => {
+    btn.addEventListener('click', () => {
+        activeNav.classList.toggle('nav-active');
+      });
+});
+
+remouve.forEach(remv =>{
+    remv.addEventListener('click', () =>{
+        activeNav.classList.remove('nav-active');
+    });
+});
+}
+
+navSlide();
