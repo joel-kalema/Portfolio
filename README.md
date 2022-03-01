@@ -26,6 +26,13 @@ To get a local copy up and running follow these simple example steps.
 2. `cd Mobile-version-skeleton`
 3. Open it with the live server
 
+Set-up ESLint in your local env:
+-Run `npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x`
+-Copy [.eslintrc.json](https://github.com/microverseinc/linters-config/blob/master/html-css-js/.eslintrc.json) to the root directory of your project.
+-Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.
+-Run `npx eslint .` on the root of your directory of your project.
+-Fix linter errors.
+
 ## Authors
 
 👤 **Author**
