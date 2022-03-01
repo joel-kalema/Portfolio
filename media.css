@@ -4,10 +4,6 @@
     margin: 0 auto;
   }
 
-  .nav-active {
-    display: none;
-  }
-
   .img {
     display: flex;
     justify-content: center;
@@ -37,6 +33,14 @@
     width: 320px;
     text-align: center;
   }
+
+  .nav-active {
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
 
 @media only screen and (min-width: 1100px) {
@@ -45,6 +49,20 @@
     margin: 0 auto;
   }
 
+  .nav-active {
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .nav-links {
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+    z-index: 100;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -119,11 +137,8 @@
     opacity: 0;
   }
 
-  .nav-active li {
-    opacity: 0;
-  }
-
   .nav-links {
+    z-index: 100;
     display: block;
     width: 100%;
     margin-bottom: 50px;

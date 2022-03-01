@@ -19,6 +19,7 @@ remouve.forEach(remv =>{
         activeNav.classList.remove('nav-active');
     });
 });
+
 }
 
 navSlide();
