@@ -38,23 +38,49 @@
       <header>
         <a href="#">JK</a>
         <nav>
+          <button type="button" class="button">
+            <i class="fa fa-solid fa-bars toggle"></i>
+          </button>
           <div class="nav-links">
-            <ul>
-              <li><a href="#">Portoflio</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
+            <button type="button" class="button">
+              <i class="fa fa-times close-nav" aria-hidden="true"></i>
+            </button>
+            <span class="cercle-nav1"></span>
+            <span class="cercle-nav2"></span>
+            <ul class="list-link">
               <li>
-                <a href="#contact"><i class="fa fa-envelope"></i></a>
+                <a href="#Portoflio" class="link"
+                  >Portoflio<i
+                    class="fa fa-angle-right right"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </li>
+              <li>
+                <a href="#About" class="link"
+                  >About<i
+                    class="fa fa-angle-right right"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </li>
+              <li>
+                <a href="#contact" class="link"
+                  >Contact<i
+                    class="fa fa-angle-right right"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </li>
+              <li>
+                <a href="#contact"><i class="fa fa-envelope envelope"></i></a>
               </li>
             </ul>
           </div>
-          <button type="button">
-            <i class="fa fa-solid fa-bars"></i>
-          </button>
         </nav>
       </header>
 
-      <section class="block-one">
+      <section class="block-one" id="About">
         <h1 class="title">Joel kalema</h1>
         <h2 class="sub-title">Software Developer</h2>
         <p class="paragraph">
@@ -98,7 +124,7 @@
         <hr />
       </section>
 
-      <section class="works projects">
+      <section class="works projects" id="Portoflio">
         <span class="works1"></span>
         <span class="works2"></span>
         <div class="work-link">
