@@ -45,11 +45,6 @@ i:hover {
   z-index: 1200;
   display: none;
   margin: 0;
-  transition: 0.4s;
-  -webkit-transition: 0.4s;
-  -moz-transition: 0.4s;
-  -ms-transition: 0.4s;
-  -o-transition: 0.4s;
 }
 
 .pop-btn {
@@ -82,6 +77,11 @@ i:hover {
   padding: 20px;
   border: rgba(221, 220, 220, 0.575) solid;
   height: 100%;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 
 .pop-contaite p {
@@ -434,7 +434,6 @@ nav button {
   align-items: center;
   width: 100%;
   height: 300px;
-  background-color: #fff;
 }
 
 .picture1 {
