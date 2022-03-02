@@ -32,10 +32,7 @@ i:hover {
   -o-transition: 0.5s;
 }
 
-.popup1,
-.popup2,
-.popup3,
-.popup4 {
+.popup-active {
   position: fixed;
   overflow-y: auto;
   top: 0;
