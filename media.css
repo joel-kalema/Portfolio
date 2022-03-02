@@ -66,6 +66,42 @@
 }
 
 @media only screen and (min-width: 992px) {
+  .popup1,
+  .popup2,
+  .popup3,
+  .popup4 {
+    position: fixed;
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 17px;
+    background-color: #191665a4;
+    backdrop-filter: blur(3rem);
+    z-index: 1200;
+    display: none;
+    margin: 0;
+  }
+
+  .pop-contaite {
+    margin: 20px auto;
+    width: 80%;
+    padding: 0 200px;
+  }
+
+  .pop-img {
+    margin: 60px 0;
+    height: 400px;
+  }
+
+  .pop-contaite p {
+    width: 70%;
+    margin: 30px auto;
+    font-size: 16px;
+    text-align: center;
+  }
+
   .cercle1 {
     width: 200px;
     height: 200px;
