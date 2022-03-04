@@ -124,6 +124,12 @@ i:hover {
   margin: 0;
 }
 
+.pop-link {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
 .git {
   margin: 10px auto;
   font-size: 15px;

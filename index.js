@@ -3,7 +3,7 @@ const projectDatas = [
     name: 'Project 01',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the   industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text",
     description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
-    image: 'picture1',
+    backgroundImage: 'picture1',
     technologies: ['Css', 'Html', 'Bootstrap', 'Ruby'],
     live: '#',
     source: '#',
@@ -12,7 +12,7 @@ const projectDatas = [
     name: 'Project 02',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the   industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
-    image: 'picture2',
+    backgroundImage: 'picture2',
     technologies: ['Css', 'Html', 'Bootstrap', 'Ruby'],
     live: '#',
     source: '#',
@@ -21,7 +21,7 @@ const projectDatas = [
     name: 'Project 03',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the   industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
-    image: 'picture3',
+    backgroundImage: 'picture3',
     technologies: ['Css', 'Html', 'Bootstrap', 'Ruby'],
     live: '#',
     source: '#',
@@ -30,7 +30,7 @@ const projectDatas = [
     name: 'Project 03',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the   industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
-    image: 'picture4',
+    backgroundImage: 'picture4',
     technologies: ['Css', 'Html', 'Bootstrap', 'Ruby'],
     live: '#',
     source: '#',
@@ -58,7 +58,7 @@ const navSlide = () => {
 navSlide();
 const mainProjectsContainer = document.querySelector('.project');
 mainProjectsContainer.innerHTML += projectDatas.map((project) => (`<div class="projects">
-  <div class="img"><div class="${project.image}"></div></div>
+  <div class="img"><div class="${project.backgroundImage}"></div></div>
     <div class="project-content">
       <h2>${project.name}</h2>
       <p>
@@ -66,10 +66,10 @@ mainProjectsContainer.innerHTML += projectDatas.map((project) => (`<div class="p
       </p>
       <div class="langage-used">
         <ul class="langage-list">
-          <li>Css</li>
-          <li class="colum1">Html</li>
-          <li class="colum2">Bootstrap</li>
-          <li>Ruby</li>
+          <li>${project.technologies[0]}</li>
+          <li class="colum1">${project.technologies[1]}</li>
+          <li class="colum2">${project.technologies[2]}</li>
+          <li>${project.technologies[3]}</li>
         </ul>
       </div>
       <button type="button" class="pop-btn">See Project</button>
@@ -88,20 +88,20 @@ button.forEach((btn, index) => {
              <i class="fa fa-times close-pop" aria-hidden="true"></i>
          </a>
        <h1>${projectDatas[index].name}</h1>
-        <div class="pop-img"><div class="${projectDatas[index].image}"></div></div>
+        <div class="pop-img"><div class="${projectDatas[index].backgroundImage}"></div></div>
         <p class="simple-para">${projectDatas[index].description}</p>
         <p class="large-para">
          ${projectDatas[index].description1}
         </p>
         <div class="langage-used">
         <ul>
-          <li>Css</li>
-          <li class="colum1">Html</li>
-          <li class="colum2">Bootstrap</li>
-          <li>Ruby</li>
+        <li>${projectDatas[index].technologies[0]}</li>
+        <li class="colum1">${projectDatas[index].technologies[1]}</li>
+        <li class="colum2">${projectDatas[index].technologies[2]}</li>
+        <li>${projectDatas[index].technologies[3]}</li>
         </ul>
       </div>
-         <div class="pop-btn"> 
+         <div class="pop-link"> 
          <a src="${projectDatas[index].source}" class="see-live">
          see live <i class="fa fa-share-square-o" aria-hidden="true"></i>
          </a>

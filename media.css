@@ -95,7 +95,9 @@
     height: 500px;
   }
 
-  .pop-btn {
+  .pop-link {
+    width: 40%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
   }
