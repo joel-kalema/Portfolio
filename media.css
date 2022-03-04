@@ -96,11 +96,8 @@
   }
 
   .pop-btn {
-    width: 40%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
   }
 
   .pop-contaite ul {
@@ -288,10 +285,20 @@
     margin-bottom: 50px;
   }
 
-  .project {
+  .projects:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .projects:nth-child(even).project-content {
+    padding-right: 20px;
+    padding-left: 0;
+  }
+
+  .works .projects {
+    width: 100%;
     margin: 80px auto;
     display: flex;
-    height: 448px;
   }
 
   .img {
@@ -310,17 +317,6 @@
 
   .desk {
     display: block;
-  }
-
-  .reverse {
-    margin-top: 60px;
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  .reverse .project-content {
-    padding-left: 0;
-    padding-right: 30px;
   }
 
   .langage-used {
