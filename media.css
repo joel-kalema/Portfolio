@@ -66,6 +66,62 @@
 }
 
 @media only screen and (min-width: 992px) {
+  .popup1,
+  .popup2,
+  .popup3,
+  .popup4 {
+    position: fixed;
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 17px;
+    background-color: #191665a4;
+    backdrop-filter: blur(3rem);
+    z-index: 1200;
+    display: none;
+    margin: 0;
+  }
+
+  .pop-contaite {
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  .pop-img {
+    width: 100%;
+    margin: 20px 0;
+    height: 500px;
+  }
+
+  .pop-link {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pop-contaite ul {
+    width: 40%;
+    margin: 40px auto;
+  }
+
+  .simple-para {
+    display: none;
+  }
+
+  .large-para {
+    display: block;
+  }
+
+  .pop-contaite p {
+    width: 70%;
+    margin: 30px auto;
+    font-size: 16px;
+    text-align: center;
+  }
+
   .cercle1 {
     width: 200px;
     height: 200px;
@@ -231,10 +287,20 @@
     margin-bottom: 50px;
   }
 
-  .project {
+  .projects:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .projects:nth-child(even).project-content {
+    padding-right: 20px;
+    padding-left: 0;
+  }
+
+  .works .projects {
+    width: 100%;
     margin: 80px auto;
     display: flex;
-    height: 448px;
   }
 
   .img {
@@ -253,17 +319,6 @@
 
   .desk {
     display: block;
-  }
-
-  .reverse {
-    margin-top: 60px;
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  .reverse .project-content {
-    padding-left: 0;
-    padding-right: 30px;
   }
 
   .langage-used {

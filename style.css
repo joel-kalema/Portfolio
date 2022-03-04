@@ -32,6 +32,111 @@ i:hover {
   -o-transition: 0.5s;
 }
 
+.popup-active {
+  position: fixed;
+  overflow-y: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 17px;
+  background-color: #1916658f;
+  backdrop-filter: blur(3rem);
+  z-index: 1200;
+  display: none;
+  margin: 0;
+}
+
+.pop-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.up-container {
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.close1,
+.close2,
+.close3,
+.close4 {
+  position: absolute;
+  font-size: 25px;
+  top: 15px;
+  right: 20px;
+}
+
+.pop-contaite {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  scrollbar-width: thin;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.123);
+  padding: 20px;
+  border: rgba(221, 220, 220, 0.575) solid;
+  height: 100%;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.pop-contaite p {
+  margin-bottom: 24px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.pop-contaite h1 {
+  margin-bottom: 15px;
+  margin-bottom: 24px;
+}
+
+.pop-img {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 181px;
+}
+
+.see-live {
+  margin: 10px auto;
+  font-size: 15px;
+  padding: 10px 20px;
+  background-color: #7d73fc;
+}
+
+.simple-para {
+  display: block;
+}
+
+.large-para {
+  display: none;
+}
+
+.git-icon {
+  padding: 0;
+  margin: 0;
+}
+
+.pop-link {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.git {
+  margin: 10px auto;
+  font-size: 15px;
+  padding: 10px 20px;
+  background-color: #7d73fc;
+}
+
 .toggle {
   color: #fff;
 }
@@ -52,7 +157,6 @@ li {
 }
 
 body {
-  overflow-x: hidden;
   font-family: "Poppins", sans-serif;
   background-color: #191665;
 }
@@ -336,7 +440,6 @@ nav button {
   align-items: center;
   width: 100%;
   height: 300px;
-  background-color: #fff;
 }
 
 .picture1 {
@@ -391,16 +494,16 @@ nav button {
   -o-transition: 0.5s ease;
 }
 
-.projects h3 {
+.works h3 {
   color: #867dff;
   font-size: 40px;
 }
 
-.works .project h2 {
+.works .projects h2 {
   margin: 30px 0;
 }
 
-.works .project p {
+.works .projects p {
   margin-bottom: 20px;
   font-size: 18px;
 }
