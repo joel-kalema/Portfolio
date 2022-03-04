@@ -1,12 +1,12 @@
-const projectDatas = [ 
-  { 
-  name: 'Project 01',
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the   industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text",
-  description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
+const projectDatas = [
+  {
+    name: 'Project 01',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the   industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text",
+    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
     image: 'picture1',
     technologies: ['Css', 'Html', 'Bootstrap', 'Ruby'],
     live: '#',
-    source: '#'
+    source: '#',
   },
   {
     name: 'Project 02',
@@ -15,7 +15,7 @@ const projectDatas = [
     image: 'picture2',
     technologies: ['Css', 'Html', 'Bootstrap', 'Ruby'],
     live: '#',
-    source: '#'
+    source: '#',
   },
   {
     name: 'Project 03',
@@ -24,7 +24,7 @@ const projectDatas = [
     image: 'picture3',
     technologies: ['Css', 'Html', 'Bootstrap', 'Ruby'],
     live: '#',
-    source: '#'
+    source: '#',
   },
   {
     name: 'Project 03',
@@ -33,10 +33,9 @@ const projectDatas = [
     image: 'picture4',
     technologies: ['Css', 'Html', 'Bootstrap', 'Ruby'],
     live: '#',
-    source: '#'
-  }
+    source: '#',
+  },
 ];
-
 window.addEventListener('scroll', () => {
   const header = document.querySelector('header');
   header.classList.toggle('stiky', window.scrollY > 0);
@@ -57,11 +56,9 @@ const navSlide = () => {
   });
 };
 navSlide();
-
 const mainProjectsContainer = document.querySelector('.project');
-mainProjectsContainer.innerHTML += projectDatas.map(function(project) {
-return ( `<div class="projects">
-    <div class="img"><div class="${project.image}"></div></div>
+mainProjectsContainer.innerHTML += projectDatas.map((project) => (`<div class="projects">
+  <div class="img"><div class="${project.image}"></div></div>
     <div class="project-content">
       <h2>${project.name}</h2>
       <p>
@@ -77,13 +74,10 @@ return ( `<div class="projects">
       </div>
       <button type="button" class="pop-btn">See Project</button>
     </div>
-    </div>`);
-  }
-);
-
+    </div>`));
 const button = document.querySelectorAll('.pop-btn');
 const show = document.querySelector('.popup');
-button.forEach((btn ,index) => {
+button.forEach((btn, index) => {
   btn.addEventListener('click', () => {
     show.classList.add('popup-active');
     show.style.display = 'block';
