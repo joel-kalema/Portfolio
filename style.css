@@ -20,7 +20,7 @@ br {
 
 h5 {
   margin-bottom: 15px;
-  color: #867dff;
+  color: #f30b0b;
 }
 
 i:hover {
@@ -648,7 +648,7 @@ textarea {
   padding: 12px;
   background-color: #7d73fc;
   margin-bottom: 71px;
-  margin-top: 40px;
+  margin-top: 20px;
   transition: 0.6s ease;
   -webkit-transition: 0.6s ease;
   -moz-transition: 0.6s ease;
@@ -667,6 +667,10 @@ textarea {
   align-items: center;
   justify-content: space-around;
   font-size: 30px;
+}
+
+.error-message {
+  color: rgb(248, 14, 14);
 }
 
 .lines {
