@@ -117,3 +117,25 @@ button.forEach((btn, index) => {
     });
   });
 });
+
+const form = document.querySelector('.form-valud');
+const userName = document.querySelector('.userName');
+const mail = document.querySelector('.input-mail');
+const errorMessage = document.querySelector('.error-message');
+
+form.addEventListener('submit', (e) => {
+  if (mail.value !== userName.value.toLowerCase() && mail.value !== mail.value.toLowerCase()) {
+    e.preventDefault();
+    errorMessage.innerText = 'Lowercase is required';
+    mail.style.border = '3px #c00e0e solid';
+    userName.style.border = '3px #c00e0e solid';
+  } else if (userName.value !== userName.value.toLowerCase()) {
+    e.preventDefault();
+    errorMessage.innerText = 'Lowercase is required';
+    userName.style.border = '3px #c00e0e solid';
+  } else if (mail.value !== mail.value.toLowerCase()) {
+    e.preventDefault();
+    errorMessage.innerText = 'Lowercase is required';
+    mail.style.border = '3px #c00e0e solid';
+  }
+});

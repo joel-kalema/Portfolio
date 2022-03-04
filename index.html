@@ -162,15 +162,12 @@
             to help with it
           </p>
 
-          <form
-            action="https://formspree.io/f/mbjwogzo
-        "
-            method="POST"
-          >
+          <form class="form-valud">
             <div class="names">
               <input
                 type="text"
                 name="userName"
+                class="userName"
                 id="name"
                 placeholder="Text Input"
                 maxlength="30"
@@ -182,7 +179,6 @@
               type="email"
               name="email"
               id="email"
-              value="jeremy@gmail.com"
               placeholder="Enter your e-mail"
               required
             />
@@ -192,6 +188,7 @@
               maxlength="500"
               placeholder="Enter text here..."
             ></textarea>
+            <div class="error-message"></div>
             <button type="submit" class="button-sub">send Message</button>
           </form>
         </section>
