@@ -33,9 +33,7 @@ Set-up ESLint in your local env:
 -Run `npx eslint .` on the root of your directory of your project.
 -Fix linter errors.
 
-## Authors
-
-👤 **Author**
+## Author
 
 - GitHub: [@joel-kalema](https://github.com/joel-kalema)
 - Twitter: [@JoelJklm](https://www.linkedin.com/in/joel-kalema-30518a230/)
