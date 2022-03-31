@@ -1,21 +1,21 @@
 const projectDatas = [
   {
-    name: 'Project 01',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the   industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text",
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
+    name: 'Global Worming',
+    description: "This is the first capstone project from microverse. I chose the theme of an annual tech magazine about the Global Worming in the word and all of its impact on people's lives.",
+    description1: "Global warming is the long-term heating of Earth's climate system observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth's atmosphere.",
     backgroundImage: 'picture1',
-    technologies: ['Css', 'Html', 'Bootstrap', 'Ruby'],
-    live: '#',
-    source: '#',
+    technologies: ['Css', 'Html', 'js', 'git'],
+    live: 'https://joel-kalema.github.io/Global-warming/',
+    source: 'https://github.com/joel-kalema/Global-warming',
   },
   {
-    name: 'Project 02',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the   industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
+    name: 'To Do list',
+    description: 'A simple todo list app that helps you keep track of the most important tasks of your busy day. Built with Javascript, Sass, Webpack',
+    description1: 'A simple todo list app that helps you keep track of the most important tasks of your busy day. Built with Javascript, Css, Webpack. One of the most important reasons you should use a to do list is that it will help you stay organised. When you write all your tasks in a list, they seem more manageable. When you’ve got a clear outline of the tasks you’ve got to do and those you’ve completed, it helps you stay focused. While freeing up space in your mind for other more creative tasks.When you complete a task, you can cross it off your list. This gives you a sense of progress and achievement, something you’ll lack if you’re always rushing from one task to the next. If you feel a sense of achievement, it spurs you on and motivates you to keep moving forward.',
     backgroundImage: 'picture2',
-    technologies: ['Css', 'Html', 'Bootstrap', 'Ruby'],
-    live: '#',
-    source: '#',
+    technologies: ['Css', 'Html', 'Js', 'Webpack'],
+    live: 'https://joel-kalema.github.io/To-Do-list/',
+    source: 'https://github.com/joel-kalema/To-Do-list',
   },
   {
     name: 'Project 03',
@@ -69,7 +69,7 @@ mainProjectsContainer.innerHTML += projectDatas.map((project) => (`<div class="p
           <li>${project.technologies[0]}</li>
           <li class="colum1">${project.technologies[1]}</li>
           <li class="colum2">${project.technologies[2]}</li>
-          <li>${project.technologies[3]}</li>
+          <li class="colum2">${project.technologies[3]}</li>
         </ul>
       </div>
       <button type="button" class="pop-btn">See Project</button>
@@ -98,14 +98,14 @@ button.forEach((btn, index) => {
         <li>${projectDatas[index].technologies[0]}</li>
         <li class="colum1">${projectDatas[index].technologies[1]}</li>
         <li class="colum2">${projectDatas[index].technologies[2]}</li>
-        <li>${projectDatas[index].technologies[3]}</li>
+        <li class="colum2">${projectDatas[index].technologies[3]}</li>
         </ul>
       </div>
          <div class="pop-link"> 
-         <a src="${projectDatas[index].source}" class="see-live">
+         <a href="${projectDatas[index].live}" class="see-live">
          see live <i class="fa fa-share-square-o" aria-hidden="true"></i>
          </a>
-         <a src="${projectDatas[index].live}" class="git">
+         <a href="${projectDatas[index].source}" class="git">
           see source <i class="fa fa-github"></i>
         </a></div>
         </div>
