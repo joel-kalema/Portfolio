@@ -23,6 +23,10 @@ h5 {
   color: #f30b0b;
 }
 
+h4 {
+  color: #6d66d3;
+}
+
 i:hover {
   transition: 0.5s;
   color: #3b32c0;
