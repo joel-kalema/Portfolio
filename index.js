@@ -27,13 +27,13 @@ const projectDatas = [
     source: 'https://github.com/joel-kalema/Leaderboard/tree/futur',
   },
   {
-    name: 'Project 03',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the   industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
+    name: 'Math-Magicians',
+    description: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
+    description1: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
     backgroundImage: 'picture4',
-    technologies: ['Css', 'Html', 'Bootstrap', 'Ruby'],
+    technologies: ['Css', 'React', 'Git', 'Githbub'],
     live: '#',
-    source: '#',
+    source: 'https://github.com/joel-kalema/Math-Magicians',
   },
 ];
 window.addEventListener('scroll', () => {
