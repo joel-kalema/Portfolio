@@ -2,13 +2,14 @@
 
 # Portfolio
 
-> Description the project.
+> My personal portfolio is a responsive web app that I used to present my skills, projects and other details about myself. It also contains a form that can be used to reach out to me directly.
 
 ## Built With
 
 - Html
 - Css
 - Js
+- Git
 
 ## Live Demo (if available)
 
