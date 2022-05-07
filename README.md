@@ -37,8 +37,8 @@ Set-up ESLint in your local env:
 ## Author
 
 - GitHub: [@joel-kalema](https://github.com/joel-kalema)
-- Twitter: [@JoelJklm](https://www.linkedin.com/in/joel-kalema-30518a230/)
-- LinkedIn: [joel kalema](https://twitter.com/JoelJklm)
+- Twitter: [@JoelJklm](https://twitter.com/JoelJklm)
+- LinkedIn: [joel kalema](https://www.linkedin.com/in/joel-kalema-30518a230/)
 
 ## 🤝 Contributing
 
