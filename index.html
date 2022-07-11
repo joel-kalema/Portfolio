@@ -27,6 +27,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="media.css" />
     <title>joel's Portfolio</title>
@@ -92,9 +93,8 @@
         <div class="useds">
           <div class="used">
             <h4>Language</h4>
-            <ul>
+            <ul data-aos="fade-up">
               <li><a href="#">Javascript</a></li>
-              <li><a href="#">Ruby</a></li>
               <li><a href="#">Ruby</a></li>
               <li><a href="#">Css</a></li>
             </ul>
@@ -102,7 +102,7 @@
 
           <div class="used Frameworks">
             <h4>Frameworks</h4>
-            <ul>
+            <ul data-aos="fade-up">
               <li><a href="#">Bootstrap</a></li>
               <li><a href="#">Ruby on Rails</a></li>
               <li><a href="#">RSPec</a></li>
@@ -112,7 +112,7 @@
           </div>
           <div class="used Skills">
             <h4>Skills</h4>
-            <ul>
+            <ul data-aos="fade-up">
               <li><a href="#">Codekit</a></li>
               <li><a href="#">Github</a></li>
               <li><a href="#">Codepen</a></li>
@@ -224,5 +224,9 @@
     </main>
 
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -58,7 +58,9 @@ const navSlide = () => {
 navSlide();
 const mainProjectsContainer = document.querySelector('.project');
 mainProjectsContainer.innerHTML += projectDatas.map((project) => (`<div class="projects">
-  <div class="img"><div class="${project.backgroundImage}"></div></div>
+  <div class="img"><div class="${project.backgroundImage}" data-aos="fade-right"
+  data-aos-offset="300"
+  data-aos-easing="ease-in-sine"></div></div>
     <div class="project-content">
       <h2>${project.name}</h2>
       <p>
