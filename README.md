@@ -9,7 +9,6 @@
 - Html
 - Css
 - Js
-- Git
 
 ## Live Demo (if available)
 
