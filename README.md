@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio
+![Mobile version screeshot](img/live.jpg)
 
 > My personal portfolio is a responsive web app that I used to present my skills, projects and other details about myself. It also contains a form that can be used to reach out to me directly.
 
@@ -10,13 +11,10 @@
 - Css
 - Js
 
-## Live Demo (if available)
+## Live Demo
 
-- [Live Demo Link](https://joel-kalema.github.io/Portfolio/)
+ Click [here](https://joel-kalema.github.io/Portfolio/)!
 
-## Image
-
-![Mobile version screeshot](img/live.jpg)
 
 ## Getting Started
 
