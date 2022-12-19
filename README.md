@@ -1,4 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio
 ![Mobile version screeshot](img/live.jpg)
